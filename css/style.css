@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation */
+
+#navigation {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: -20px;
+}
+
+#navigation .navbar-brand:hover {
+    color: yellow !important;
+}
+
+#navigation .navbar-nav li {
+    padding: 0 15px;
+}
+
+#navigation .navbar-nav li a {
+    float: right;
+    text-align: left;
+    color: white;
+}
+
+#navigation .navbar-nav li a:hover {
+    color: yellow !important;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+/* home */
+
+#home {
+    background-image: url(../img/home.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#home .container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#home .container .intro-lead-in {
+    font-size: 60px;
+}
+
+#home .container .intro-heading {
+    font-size: 30px;
+}
+
+/* services */
+
+#services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#services .container .services-heading {
+    font-size: 40px;
+}
+
+#services .container .col-md-4 {
+    padding: 10px;
+}
+
+#services .container .services-subheading {
+    font-size: 20px;
+}
+
+#services .container h4 {
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* portfolio */
+
+#portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #efefef;
+}
+
+#portfolio .container .portfolio-heading {
+    font-size: 40px;
+}
+
+#portfolio .container .portfolio-subheading {
+    font-size: 20px;
+}
+
+#portfolio .container .portfolio-image {
+    height: 220px;
+    width: 100%;
+}
+
+#portfolio .container .portfolio-caption {
+    background: #fff;
+}
+
+#portfolio .container .folio-img-heading {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#portfolio .container .folio-img-subheading {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+/* about */
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* team */
+
+#team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #efefef;
+}
+
+#team .container .team-heading {
+    font-size: 40px;
+}
+
+#team .container .team-subheading {
+    font-size: 20px;
+}
+
+#team .container .col-sm-4 {
+    margin-top: 50px;
+}
+
+#team .container .team-member-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid #fff;
+}
+
+#team .container .team-caption .team-member-name{
+    padding-top: 10px;
+}
+
+#team .container .team-caption .team-member-designation {
+    font-size: 18px;
+}
+
+#team .container .social-caption .fa{
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+#team .container .social-caption .fa:hover {
+    color: #e1da00;
+}
+
+#team .container .col-lg-8 {
+    font-size: 17px;
+}
+
+/* client */
+
+#client {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#client .container img {
+    height: 200px;
+}
+
+/* contact */
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../img/contact-bg.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#contact .container .contact-heading {
+    color: #fff;
+    font-size: 40px;
+}
+
+#contact .container .contact-subheading {
+    color: #fff;
+    font-size: 20px;
+}
+
+#contact .container .form-group input[type=text],
+#contact .container .form-group input[type=email],
+#contact .container .form-group input[type=tel] {
+    padding: 30px;
+    outline: none !important;
+}
+
+#contact .container .form-group textarea {
+    height: 250px;
+}
+
+::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact .container .form-group {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#contact .container .btn {
+    padding: 15px;
+    margin: 20px;
+    font-size: 20px;
+    background: #e1da00;
+    outline: none !important;
+}
+
+/* footer */
+
+#footer {
+    padding-top: 5px;
+}
+
+#footer .container .copyright-msg {
+    font-size: 16px;
+    padding: 20px;
+}
+
+#footer .container .fa {
+    font-size: 35px;
+    color: #000;
+    padding: 20px;
+}
+
+#footer .container .fa:hover {
+    color: #e1da00;
+}
+
+#footer .container ul {
+    font-size: 16px;
+    padding: 20px;
+}
+
+#footer .container ul li a {
+    color: #000;
+}
